@@ -1,0 +1,57 @@
+<DOCTYPE html>
+<html>
+<head>
+<style>
+   .container {
+     height:100vh;
+     display:flex;
+     flex-direction:column;
+     justify-content:center;
+     align-items:center;
+     font-family:'Roboto';
+}
+.form_container{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+}
+.input_container{
+	display:flex;
+	justify-content:space_between;
+}
+.button{
+	width:100px
+	height:40px
+	background-color:lightgreen
+}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="form_container">
+<div class="input_container">
+<label for="UserName">
+UserName:
+</label>
+<input type="text"id="UserName"
+class="input_feild">
+</div>
+<div class="input_container">
+<label for="pass"class="label_feild">
+password
+</label>
+<input type="password"id="password">
+
+</div>
+</div>
+<div>
+<button class="button">
+submit
+</button>
+<button class="button">
+cancel
+</button>
+</div>
+</body>
+</html>
